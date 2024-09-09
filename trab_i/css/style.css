@@ -64,10 +64,8 @@ nav #menu_principal span{
     color: #E1AB30;
     transition: 0.2s;
 }
-section{
+.device-dark{
     background-image: url(../img/divider-dark.jpg);
-    width: 100%;
-    height: 500px;
     background-repeat: repeat-x;
     padding-top: 100px;
 }
@@ -90,9 +88,8 @@ section{
     padding: 0 25px 0 0;
 }
 .txt{
-    width: 850px;
-    height: 100px;
-    float: left;
+    width: 1000px;
+    margin: 0 auto;
 }
 .txt h6{
     font-size: 28px;
@@ -101,35 +98,73 @@ section{
     display: inline-block;
     line-height: 40px;
     font-family: 'Roboto Slab', serif; /*mudar a fonte*/
-    margin-left: 610px;
     text-align: center;
+    margin: 0;
+    margin-left: 95px;
+    margin-top: 40px;
+    padding: 0 0 110px 0;
+}
+.projeto{
+    background-color: greenyellow;
+    height: 207px;
+    width: 100%;
+}
+.cabecalho{
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.projeto .cabecalho h2{
+    margin: 0;
+}
+.projeto .cabecalho h2 span{
+    color: #e7a920;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+.projeto .cabecalho h2 b{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 85px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+.projeto .cabecalho p{
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+.projeto .mosaico{
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.projeto .mosaico .item{
+    height: 470px;
+    width: 570px;
+    background-image: url(../img/project-1.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+.projeto .mosaico .item:hover{
+    background-size: 120%;
+    background-position: center;
+    
+}
+.projeto .mosaico .plus{
+    width: 75px;
+    height: 75px;
+    padding: 198px 248px;
 }
 
-.txt h2{
-    font-size: 50px;
-    font-weight: 300;
-    margin: 0 0 0 880px;
-    color: #e7a920;
-}
-.txt h3{
-    font-size: 100px;
-    font-weight: 300px;
-    margin: 0 0 0 780px;
-}
-.txt img{
-    width: 60px;
-    margin: 0 0 0 920px;
-}
-.txt h4{
-    font-size: 25px;
-    font-weight: 300;
-    margin: 0 0 0 740px;
-    display: flex;
-    list-style: none;
-    text-align: center;
-    width: 500px;
-}
-/*-----------------------------------Trabalhos---------------------------------*/
+/*----------------------------------Trabalhos---------------------------------*/
 #Trabalhos{
     background-color: blue;
 }
